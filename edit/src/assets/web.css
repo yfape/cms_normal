@@ -1,0 +1,16 @@
+#app{width:100%;min-width:1100px;font-family:"Microsoft YaHei", Helvetica, Arial, sans-serif;color:#333;}
+html{overflow-y:scroll;}
+.widthlim{width:1100px;margin:0 auto;background:#fff;}
+.yf-title{cursor:pointer;}
+.yf-title:hover{color:#B71C1C;}
+.jg{height:24px;}
+.books{transition:box-shadow 0.3s;cursor:pointer;width:100%}
+.books:hover{box-shadow:5px 5px 10px #AFB2B2,-5px -5px 10px #AFB2B2}
+.oneline{overflow:hidden;white-space:nowrap!important;}
+.couldclick{cursor:pointer;}
+.fade-enter-active, .fade-leave-active {
+    transition:opacity 1s
+}
+.fade-enter, .fade-leave-to{
+    opacity: 0
+}

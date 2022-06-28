@@ -1,0 +1,21 @@
+#app{width:100%;min-width:1100px;font-family:"Microsoft YaHei", Helvetica, Arial, sans-serif;color:#333;}
+.widthlim{width:1100px;margin:0 auto;background:#fff;}
+body{overflow-y:scroll;}
+.overhidden{overflow:hidden;}
+.lines{height:2px;border-bottom:1px solid transparent;border-image:linear-gradient(to bottom,transparent 50%, #9E9E9E 50%) 0 0 100%/1px 0;}
+
+.textinimg{padding:3px!important;}
+
+.title1{height:30px;line-height:30px;font-size:16px}
+
+.jg{height:24px;}
+.books{transition:box-shadow 0.3s;cursor:pointer;width:100%}
+.books:hover{box-shadow:5px 5px 10px #AFB2B2,-5px -5px 10px #AFB2B2}
+.oneline{word-spacing:nowrap;white-space: nowrap;}
+.couldclick{cursor:pointer;}
+.fade-enter-active, .fade-leave-active {
+    transition:opacity 1s
+}
+.fade-enter, .fade-leave-to{
+    opacity: 0
+}
